@@ -1,0 +1,120 @@
+.body{
+    background-image: url(/img/bg.png); 
+}
+
+
+
+
+
+
+.logo-img{
+    height: 90px;
+}
+
+.text-span{
+    @font-face {
+        font-family: 'Meta Pro';
+        src: local('Meta Pro Condensed Book'), local('Meta-Pro-Condensed-Book'),
+            url('MetaPro-CondBook.woff2') format('woff2'),
+            url('MetaPro-CondBook.woff') format('woff'),
+            url('MetaPro-CondBook.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+      }
+    color: red;
+}
+
+.tovar{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color: white;
+    background-image: url(https://acegif.com/wp-content/gif/snwflks-82.gif);
+}
+
+.container-2{
+    display: grid; grid-template-columns: repeat(auto-fill, 5); grid-gap: 15px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+}
+
+.bgc-2{
+    background-color: #fff;
+}
+
+
+
+.line-padding{
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.text-2{
+    font-family: 'Meta Pro';
+    font-size: 17px;
+}
+
+.text-3{
+    font-family: 'Meta pro';
+    font-size: 20px;
+    color: red;
+}
+
+.text-4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    
+}
+
+.text-5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.order{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.order-cart{
+    border-top: white;
+    border: 1px solid gray;
+  
+}
+.pad{
+    padding-top: 10px;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://s.plpstatic.ru/img/garland/4.png
